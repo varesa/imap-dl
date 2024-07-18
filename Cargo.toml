@@ -1,0 +1,11 @@
+[package]
+name = "imap-dl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.9", features = ["derive"] }
+imap = "2.4.1"
+mailparse = "0.15.0"
+native-tls = "0.2.12"
